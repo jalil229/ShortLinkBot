@@ -40,15 +40,15 @@ SHORTEN_LINK_API_KEY = os.environ.get(
     None
 )
 IS_WEBHOOK = bool(os.environ.get("IS_WEBHOOK", False))
-START_TEXT = os.environ.get("START_TEXT", "send a link 😡😡")
-CHECKING_TEXT = os.environ.get("CHECKING_TEXT", "🤔")
+START_TEXT = os.environ.get("START_TEXT", "Kirim link disini 😡😡")
+CHECKING_TEXT = os.environ.get("CHECKING_TEXT", "tunggu dulu ya..")
 NO_LINKS_PROVIDED = os.environ.get(
     "NO_LINKS_PROVIDED",
     "input links cannot be detected"
 )
 SHORTEN_LINK_API_URL = os.environ.get(
     "SHORTEN_LINK_API_URL",
-    "https://gplinks.in/api?api={api_token}&url={long_url}&format=text"
+    "https://link.jlldev.my.id/api?api=api_token}&url={long_url}&format=text"
 )
 # webhook settings
 WEBHOOK_HOST = os.environ.get("URL", None)
